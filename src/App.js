@@ -1,14 +1,7 @@
 import './App.css';
-import Stars from './components/Stars';
+import Listing from './components/Listing';
+const data = require('./etsy.json');
 
-function App() {
-  return (
-    <div>
-      <Stars count={2} />
-      <Stars count={5} />
-      <Stars count={3} />
-    </div>
-  );
+export default function App() {
+  return <Listing items={data} />;
 }
-
-export default App;

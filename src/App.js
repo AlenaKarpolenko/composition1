@@ -1,9 +1,9 @@
 import './App.css';
-import HEXConvertor from './components/HEXConvertor';
+import TrainRecord from './components/TrainRecord';
 
 function App() {
   return (
-    <HEXConvertor />
+    <TrainRecord />
   );
 }
 

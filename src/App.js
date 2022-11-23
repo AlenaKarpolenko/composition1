@@ -1,7 +1,10 @@
 import './App.css';
-import Listing from './components/Listing';
-const data = require('./etsy.json');
+import HEXConvertor from './components/HEXConvertor';
 
-export default function App() {
-  return <Listing items={data} />;
+function App() {
+  return (
+    <HEXConvertor />
+  );
 }
+
+export default App;
